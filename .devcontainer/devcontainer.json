@@ -1,0 +1,141 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+}<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cesar Heriberto Jasso Gonzalez - CV</title><style>
+    :root {
+        --color-bg: #eef1f6;
+        --color-primary: #1e2a38;
+        --color-secondary: #324a5f;
+        --color-card: #ffffff;
+        --radius: 14px;
+        --shadow: 0 4px 15px rgba(0,0,0,0.12);
+    }
+
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+        background: var(--color-bg);
+        color: #222;
+        line-height: 1.6;
+    }
+
+    header {
+        background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+        color: white;
+        padding: 55px 20px;
+        text-align: center;
+        box-shadow: var(--shadow);
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.6rem;
+        font-weight: 600;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
+
+    .container {
+        max-width: 950px;
+        margin: auto;
+        padding: 25px;
+    }
+
+    .section {
+        background: var(--color-card);
+        padding: 25px;
+        margin-bottom: 25px;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        transition: transform 0.2s ease;
+    }
+
+    .section:hover {
+        transform: translateY(-3px);
+    }
+
+    .section h2 {
+        margin-top: 0;
+        color: var(--color-primary);
+        border-left: 6px solid var(--color-secondary);
+        padding-left: 12px;
+        font-size: 1.5rem;
+    }
+
+    .item {
+        margin-bottom: 18px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        background: var(--color-primary);
+        color: white;
+        margin-top: 45px;
+        font-size: 0.95rem;
+    }
+
+    a {
+        color: var(--color-primary);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 2rem;
+        }
+        .section {
+            padding: 18px;
+        }
+    }
+</style>
+
+</head><body><header>
+    <nav style="margin-bottom:20px;">
+        <a href="#datos" style="margin:0 10px;color:white;font-weight:bold;">Datos personales</a>
+        <a href="#formacion" style="margin:0 10px;color:white;font-weight:bold;">Formación académica</a>
+        <a href="#experiencia" style="margin:0 10px;color:white;font-weight:bold;">Experiencia laboral</a>
+        <a href="#cursos" style="margin:0 10px;color:white;font-weight:bold;">Formaciones adicionales</a>
+    </nav>
+    <h1>Cesar Heriberto Jasso Gonzalez</h1>
+    <p>Estudiante de Ingeniería Mecánica – UNACAR</p>
+    <p>Edad: 19 años</p>
+</header><div class="container"><div class="section" id="datos">
+    <h2>Datos Personales</h2>
+    <p><strong>Ciudad:</strong> Ciudad del Carmen, Campeche</p>
+    <p><strong>Teléfono:</strong> +52 938 133 4770</p>
+    <p><strong>Correo:</strong> <a href="mailto:cesar_h.j_gonzalez@outlook.com">cesar_h.j_gonzalez@outlook.com</a></p>
+</div>
+
+<div class="section">
+    <h2>Perfil</h2>
+    <p>Soy un joven estudiante de Ingeniería Mecánica en la UNACAR con interés en sistemas mecánicos y eléctricos. Busco desarrollarme profesionalmente participando en proyectos que fortalezcan mis habilidades técnicas, especialmente en áreas de electricidad, mantenimiento y diseño mecánico.</p>
+</div>
+
+<div class="section" id="formacion">
+    <h2>Formación Académica</h2>
+
+    <div class="item">
+        <strong>Primaria:</strong> Rafael Ramírez<br>
+        <em>Duración: 6 años</em>
+    </div>
+
+    <div class="item">
+        <strong>Secundaria:</strong> Secundaria Técnica No. 40<br>
+        <em>Duración: 3 años</em>
+    </div>
+
+    <div class="item">
